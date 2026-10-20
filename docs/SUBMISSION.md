@@ -35,7 +35,9 @@ git remote -v
 
 Выполняйте [этапы задания](ASSIGNMENT.md) по порядку. Основная реализация находится в `app/service.py`. Можно добавлять вспомогательные модули. Заполните `REPORT.md` реальными результатами и объяснениями.
 
-Из корня своей копии запустите окружение:
+Проверки запускаются вручную и используют сохранённый код из вашей рабочей папки. Они работают в отдельном контейнере с настоящим Redis, сами создают тестовое приложение и не требуют запущенного API. Подготовка среды, состав тестов и чтение результата объяснены в [TESTING.md](TESTING.md).
+
+Для ручной демонстрации из корня своей копии запустите окружение:
 
 ```sh
 docker compose up --build -d api
@@ -44,22 +46,22 @@ docker compose up --build -d api
 Для Б и Б+:
 
 ```sh
-docker compose run --rm tests python -m pytest -q -m 'smoke or basic'
+docker compose run --build --rm tests python -m pytest -q -m 'smoke or basic'
 ```
 
 Для П:
 
 ```sh
-docker compose run --rm tests python -m pytest -q -m 'smoke or basic or advanced'
+docker compose run --build --rm tests python -m pytest -q -m 'smoke or basic or advanced'
 ```
 
 Для Э:
 
 ```sh
-docker compose run --rm tests
+docker compose run --build --rm tests
 ```
 
-Для Б+ и выше добавьте собственный тест нового сценария и выполните его отдельно, например `docker compose run --rm tests python -m pytest -q tests/test_my_scenario.py`, подставив настоящее имя своего файла. Не меняйте исходные тесты ради зелёного результата. Если что-то не выполнено, перечислите это в отчёте и PR.
+Для Б+ и выше добавьте собственный тест нового сценария и выполните его отдельно, например `docker compose run --build --rm tests python -m pytest -q tests/test_my_scenario.py`, подставив настоящее имя своего файла. Не меняйте исходные тесты ради зелёного результата. Если что-то не выполнено, перечислите это в отчёте и PR.
 
 ## Шаг 3. Записать и разместить видео
 

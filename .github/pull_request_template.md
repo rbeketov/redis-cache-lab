@@ -27,9 +27,9 @@ Commit, которому соответствует видео (`git rev-parse H
 
 1. Получить ветку этого PR и перейти в корень репозитория.
 2. `docker compose up --build -d api`
-3. Для базовой части: `docker compose run --rm tests python -m pytest -q -m 'smoke or basic'`
-4. Для П: `docker compose run --rm tests python -m pytest -q -m 'smoke or basic or advanced'`
-5. Для Э: `docker compose run --rm tests`
+3. Для базовой части: `docker compose run --build --rm tests python -m pytest -q -m 'smoke or basic'`
+4. Для П: `docker compose run --build --rm tests python -m pytest -q -m 'smoke or basic or advanced'`
+5. Для Э: `docker compose run --build --rm tests`
 6. `curl http://localhost:8000/products/1`
 
 Укажите выбранную команду проверки и её фактический результат:
