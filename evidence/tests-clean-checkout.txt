@@ -1,0 +1,53 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 615B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 323B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.12.10-slim-bookworm
+#3 DONE 4.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 88B 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 186.60kB 0.1s done
+#5 DONE 0.1s
+
+#6 [1/5] FROM docker.io/library/python:3.12.10-slim-bookworm@sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db
+#6 resolve docker.io/library/python:3.12.10-slim-bookworm@sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db 0.1s done
+#6 DONE 0.1s
+
+#7 [2/5] WORKDIR /workspace
+#7 CACHED
+
+#8 [3/5] COPY requirements.lock .
+#8 CACHED
+
+#9 [4/5] RUN pip install --no-cache-dir -r requirements.lock
+#9 CACHED
+
+#10 [5/5] COPY . .
+#10 DONE 0.3s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.6s done
+#11 exporting manifest sha256:5e91cafb1d558432fcc62a07ef01bc32594ba8005944f87b291024312337e8e4 0.0s done
+#11 exporting config sha256:482ed98f14b78eefa50dc4f8745042a057957438f90fd1c7ceb2122c423b598c 0.0s done
+#11 exporting attestation manifest sha256:a2ac55f77e862cc932c66aa437fab73a5a450e73cc8b5fd2f7614c9095057d29
+#11 exporting attestation manifest sha256:a2ac55f77e862cc932c66aa437fab73a5a450e73cc8b5fd2f7614c9095057d29 0.1s done
+#11 exporting manifest list sha256:039d3316b07d3e654a210665caae02f84b3856611d7be979406c0197b5f1656d 0.1s done
+#11 naming to docker.io/library/redis-cache-verify-tests:latest
+#11 naming to docker.io/library/redis-cache-verify-tests:latest done
+#11 unpacking to docker.io/library/redis-cache-verify-tests:latest
+#11 unpacking to docker.io/library/redis-cache-verify-tests:latest 0.8s done
+#11 DONE 1.8s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.1s
+...............................                                          [100%]
+31 passed in 3.64s

@@ -1,0 +1,54 @@
+{
+  "recorded_at_utc": "2026-11-06T19:04:16.566029+00:00",
+  "scenario": "swr",
+  "health": {
+    "status": "ok",
+    "mode": "swr"
+  },
+  "declared_fresh_ttl": 1.0,
+  "before": {
+    "source_reads": 0,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:cb69de1b3e354912ad3de54010f54122"
+  },
+  "after": {
+    "source_reads": 2,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:cb69de1b3e354912ad3de54010f54122"
+  },
+  "source_reads_delta": 2,
+  "source_writes_delta": 0,
+  "get_requests": 3,
+  "samples": [
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 128.198
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 4.243
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 3.367
+    }
+  ]
+}

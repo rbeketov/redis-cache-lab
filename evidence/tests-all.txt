@@ -1,0 +1,50 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 595B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 323B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12.10-slim-bookworm
+#3 DONE 1.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 88B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 30.03kB 0.0s done
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/python:3.12.10-slim-bookworm@sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db
+#6 resolve docker.io/library/python:3.12.10-slim-bookworm@sha256:fd95fa221297a88e1cf49c55ec1828edd7c5a428187e67b5d1805692d11588db 0.0s done
+#6 DONE 0.0s
+
+#7 [2/5] WORKDIR /workspace
+#7 CACHED
+
+#8 [3/5] COPY requirements.lock .
+#8 CACHED
+
+#9 [4/5] RUN pip install --no-cache-dir -r requirements.lock
+#9 CACHED
+
+#10 [5/5] COPY . .
+#10 DONE 0.0s
+
+#11 exporting to image
+#11 exporting layers 0.1s done
+#11 exporting manifest sha256:213a340805809e11e744710452c50eeac6acdc4c36f614a861465824f438e78d 0.0s done
+#11 exporting config sha256:51d2257cd7d0df0cf40952d4fa2e797de92c8745cb3093cf644cfb9515da7fd4 0.0s done
+#11 exporting attestation manifest sha256:98f94a97702cd06c02d25771beef388dbafed7dedee7cdb988f3bab71705c172 0.0s done
+#11 exporting manifest list sha256:2e72e64e057b282b4b92f4b5f6348aa45291473a3322b2da789edc400e61fa43
+#11 exporting manifest list sha256:2e72e64e057b282b4b92f4b5f6348aa45291473a3322b2da789edc400e61fa43 0.0s done
+#11 naming to docker.io/library/redis-cache-topic-tests:latest done
+#11 unpacking to docker.io/library/redis-cache-topic-tests:latest 0.1s done
+#11 DONE 0.4s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+...............................                                          [100%]
+31 passed in 3.00s

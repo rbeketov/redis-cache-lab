@@ -1,0 +1,64 @@
+{
+  "recorded_at_utc": "2026-11-06T19:04:11.165312+00:00",
+  "scenario": "patch",
+  "health": {
+    "status": "ok",
+    "mode": "cache_aside"
+  },
+  "declared_fresh_ttl": 60.0,
+  "before": {
+    "source_reads": 0,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:0ab3b2d550a642f3b52af31cb55d9eee"
+  },
+  "after": {
+    "source_reads": 2,
+    "source_writes": 1,
+    "cache_prefix": "cache-lab:0ab3b2d550a642f3b52af31cb55d9eee"
+  },
+  "source_reads_delta": 2,
+  "source_writes_delta": 1,
+  "get_requests": 3,
+  "samples": [
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 122.491
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 55000,
+        "stock": 0,
+        "revision": 2
+      },
+      "milliseconds": 4.795
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 55000,
+        "stock": 0,
+        "revision": 2
+      },
+      "milliseconds": 104.77
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 55000,
+        "stock": 0,
+        "revision": 2
+      },
+      "milliseconds": 1.881
+    }
+  ]
+}

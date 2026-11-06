@@ -1,0 +1,225 @@
+{
+  "recorded_at_utc": "2026-11-06T19:04:00.968451+00:00",
+  "scenario": "concurrent",
+  "health": {
+    "status": "ok",
+    "mode": "cache_aside"
+  },
+  "declared_fresh_ttl": 60.0,
+  "before": {
+    "source_reads": 0,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:1627015e460543fc9ecce52298c355a5"
+  },
+  "after": {
+    "source_reads": 1,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:1627015e460543fc9ecce52298c355a5"
+  },
+  "source_reads_delta": 1,
+  "source_writes_delta": 0,
+  "get_requests": 20,
+  "samples": [
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 165.209
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 169.42
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 165.03
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 165.886
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 168.235
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 167.829
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 164.98
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 164.231
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 163.066
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 163.0
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 164.907
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 162.384
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 160.678
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 159.332
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 163.159
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 160.439
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 162.692
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 159.376
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 161.393
+    },
+    {
+      "body": {
+        "id": 1,
+        "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+        "price_kopecks": 49900,
+        "stock": 20,
+        "revision": 1
+      },
+      "milliseconds": 158.052
+    }
+  ],
+  "series_milliseconds": 185.758
+}

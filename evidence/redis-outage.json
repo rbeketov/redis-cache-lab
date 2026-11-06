@@ -1,0 +1,58 @@
+{
+  "recorded_at_utc": "2026-11-06T19:06:46.826617+00:00",
+  "scenario": "redis_outage",
+  "get_requests": 4,
+  "before": {
+    "source_reads": 0,
+    "source_writes": 0,
+    "cache_prefix": "cache-lab:455b0a7e2f9247408e58dd97f9bbd0d9"
+  },
+  "during": {
+    "source_reads": 2,
+    "source_writes": 1,
+    "cache_prefix": "cache-lab:455b0a7e2f9247408e58dd97f9bbd0d9"
+  },
+  "after": {
+    "source_reads": 3,
+    "source_writes": 1,
+    "cache_prefix": "cache-lab:455b0a7e2f9247408e58dd97f9bbd0d9"
+  },
+  "warm": {
+    "id": 1,
+    "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+    "price_kopecks": 49900,
+    "stock": 20,
+    "revision": 1
+  },
+  "get_during_outage": {
+    "id": 1,
+    "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+    "price_kopecks": 49900,
+    "stock": 20,
+    "revision": 1
+  },
+  "patch_during_outage": {
+    "id": 1,
+    "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+    "price_kopecks": 61000,
+    "stock": 20,
+    "revision": 2
+  },
+  "get_after_recovery": {
+    "id": 1,
+    "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+    "price_kopecks": 61000,
+    "stock": 20,
+    "revision": 2
+  },
+  "repeated_get": {
+    "id": 1,
+    "title": "\u041a\u043e\u0444\u0435 250 \u0433",
+    "price_kopecks": 61000,
+    "stock": 20,
+    "revision": 2
+  },
+  "source_reads_delta": 3,
+  "source_writes_delta": 1,
+  "note": "Redis persistence is disabled; retained-key recovery is tested by B5."
+}

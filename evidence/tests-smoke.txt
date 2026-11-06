@@ -1,0 +1,6 @@
+Command: docker compose run --build --rm tests python -m pytest -q -m smoke
+Starter service.py at 8db6817; tests/test_additional.py already present.
+Excerpt from the actual terminal output (image-build log omitted):
+
+..                                                                       [100%]
+2 passed, 29 deselected in 1.63s
